@@ -1,0 +1,567 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8403BAB21DAB5D9C008C7B84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403BAB11DAB5D9C008C7B84 /* main.m */; };
+		8403BAB51DAB5D9C008C7B84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403BAB41DAB5D9C008C7B84 /* AppDelegate.m */; };
+		8403BAB81DAB5D9C008C7B84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403BAB71DAB5D9C008C7B84 /* ViewController.m */; };
+		8403BABB1DAB5D9C008C7B84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8403BAB91DAB5D9C008C7B84 /* Main.storyboard */; };
+		8403BABD1DAB5D9C008C7B84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8403BABC1DAB5D9C008C7B84 /* Assets.xcassets */; };
+		8403BAC01DAB5D9D008C7B84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8403BABE1DAB5D9D008C7B84 /* LaunchScreen.storyboard */; };
+		8403BACB1DAB5D9D008C7B84 /* RedPacketRain_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403BACA1DAB5D9D008C7B84 /* RedPacketRain_DemoTests.m */; };
+		8403BAD61DAB5D9D008C7B84 /* RedPacketRain_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403BAD51DAB5D9D008C7B84 /* RedPacketRain_DemoUITests.m */; };
+		8403BAE81DAB5DF1008C7B84 /* btn_delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 8403BAE41DAB5DF1008C7B84 /* btn_delete.png */; };
+		8403BAE91DAB5DF1008C7B84 /* hb.png in Resources */ = {isa = PBXBuildFile; fileRef = 8403BAE51DAB5DF1008C7B84 /* hb.png */; };
+		8403BAEA1DAB5DF1008C7B84 /* redPaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8403BAE61DAB5DF1008C7B84 /* redPaper.jpg */; };
+		8403BAEB1DAB5DF1008C7B84 /* snow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8403BAE71DAB5DF1008C7B84 /* snow.png */; };
+		8403BAEF1DAB6215008C7B84 /* RedPacketView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403BAEE1DAB6215008C7B84 /* RedPacketView.m */; };
+		8403BAF11DAB621C008C7B84 /* RedPacketView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8403BAF01DAB621C008C7B84 /* RedPacketView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8403BAC71DAB5D9D008C7B84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8403BAA51DAB5D9C008C7B84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8403BAAC1DAB5D9C008C7B84;
+			remoteInfo = RedPacketRain_Demo;
+		};
+		8403BAD21DAB5D9D008C7B84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8403BAA51DAB5D9C008C7B84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8403BAAC1DAB5D9C008C7B84;
+			remoteInfo = RedPacketRain_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8403BAAD1DAB5D9C008C7B84 /* RedPacketRain_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedPacketRain_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8403BAB11DAB5D9C008C7B84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8403BAB31DAB5D9C008C7B84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8403BAB41DAB5D9C008C7B84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8403BAB61DAB5D9C008C7B84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8403BAB71DAB5D9C008C7B84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8403BABA1DAB5D9C008C7B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8403BABC1DAB5D9C008C7B84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8403BABF1DAB5D9D008C7B84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8403BAC11DAB5D9D008C7B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8403BAC61DAB5D9D008C7B84 /* RedPacketRain_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedPacketRain_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8403BACA1DAB5D9D008C7B84 /* RedPacketRain_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedPacketRain_DemoTests.m; sourceTree = "<group>"; };
+		8403BACC1DAB5D9D008C7B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8403BAD11DAB5D9D008C7B84 /* RedPacketRain_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedPacketRain_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8403BAD51DAB5D9D008C7B84 /* RedPacketRain_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RedPacketRain_DemoUITests.m; sourceTree = "<group>"; };
+		8403BAD71DAB5D9D008C7B84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8403BAE41DAB5DF1008C7B84 /* btn_delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_delete.png; sourceTree = "<group>"; };
+		8403BAE51DAB5DF1008C7B84 /* hb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hb.png; sourceTree = "<group>"; };
+		8403BAE61DAB5DF1008C7B84 /* redPaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redPaper.jpg; sourceTree = "<group>"; };
+		8403BAE71DAB5DF1008C7B84 /* snow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snow.png; sourceTree = "<group>"; };
+		8403BAEC1DAB5E08008C7B84 /* UConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UConstants.h; sourceTree = "<group>"; };
+		8403BAED1DAB6215008C7B84 /* RedPacketView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedPacketView.h; sourceTree = "<group>"; };
+		8403BAEE1DAB6215008C7B84 /* RedPacketView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RedPacketView.m; sourceTree = "<group>"; };
+		8403BAF01DAB621C008C7B84 /* RedPacketView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedPacketView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8403BAAA1DAB5D9C008C7B84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8403BAC31DAB5D9D008C7B84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8403BACE1DAB5D9D008C7B84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8403BAA41DAB5D9C008C7B84 = {
+			isa = PBXGroup;
+			children = (
+				8403BAAF1DAB5D9C008C7B84 /* RedPacketRain_Demo */,
+				8403BAC91DAB5D9D008C7B84 /* RedPacketRain_DemoTests */,
+				8403BAD41DAB5D9D008C7B84 /* RedPacketRain_DemoUITests */,
+				8403BAAE1DAB5D9C008C7B84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8403BAAE1DAB5D9C008C7B84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8403BAAD1DAB5D9C008C7B84 /* RedPacketRain_Demo.app */,
+				8403BAC61DAB5D9D008C7B84 /* RedPacketRain_DemoTests.xctest */,
+				8403BAD11DAB5D9D008C7B84 /* RedPacketRain_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8403BAAF1DAB5D9C008C7B84 /* RedPacketRain_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				8403BAB31DAB5D9C008C7B84 /* AppDelegate.h */,
+				8403BAB41DAB5D9C008C7B84 /* AppDelegate.m */,
+				8403BAEC1DAB5E08008C7B84 /* UConstants.h */,
+				8403BAE31DAB5DE8008C7B84 /* imgs */,
+				8403BAB61DAB5D9C008C7B84 /* ViewController.h */,
+				8403BAB71DAB5D9C008C7B84 /* ViewController.m */,
+				8403BAED1DAB6215008C7B84 /* RedPacketView.h */,
+				8403BAEE1DAB6215008C7B84 /* RedPacketView.m */,
+				8403BAF01DAB621C008C7B84 /* RedPacketView.xib */,
+				8403BAB91DAB5D9C008C7B84 /* Main.storyboard */,
+				8403BABC1DAB5D9C008C7B84 /* Assets.xcassets */,
+				8403BABE1DAB5D9D008C7B84 /* LaunchScreen.storyboard */,
+				8403BAC11DAB5D9D008C7B84 /* Info.plist */,
+				8403BAB01DAB5D9C008C7B84 /* Supporting Files */,
+			);
+			path = RedPacketRain_Demo;
+			sourceTree = "<group>";
+		};
+		8403BAB01DAB5D9C008C7B84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8403BAB11DAB5D9C008C7B84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8403BAC91DAB5D9D008C7B84 /* RedPacketRain_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8403BACA1DAB5D9D008C7B84 /* RedPacketRain_DemoTests.m */,
+				8403BACC1DAB5D9D008C7B84 /* Info.plist */,
+			);
+			path = RedPacketRain_DemoTests;
+			sourceTree = "<group>";
+		};
+		8403BAD41DAB5D9D008C7B84 /* RedPacketRain_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8403BAD51DAB5D9D008C7B84 /* RedPacketRain_DemoUITests.m */,
+				8403BAD71DAB5D9D008C7B84 /* Info.plist */,
+			);
+			path = RedPacketRain_DemoUITests;
+			sourceTree = "<group>";
+		};
+		8403BAE31DAB5DE8008C7B84 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				8403BAE41DAB5DF1008C7B84 /* btn_delete.png */,
+				8403BAE51DAB5DF1008C7B84 /* hb.png */,
+				8403BAE61DAB5DF1008C7B84 /* redPaper.jpg */,
+				8403BAE71DAB5DF1008C7B84 /* snow.png */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8403BAAC1DAB5D9C008C7B84 /* RedPacketRain_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8403BADA1DAB5D9D008C7B84 /* Build configuration list for PBXNativeTarget "RedPacketRain_Demo" */;
+			buildPhases = (
+				8403BAA91DAB5D9C008C7B84 /* Sources */,
+				8403BAAA1DAB5D9C008C7B84 /* Frameworks */,
+				8403BAAB1DAB5D9C008C7B84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RedPacketRain_Demo;
+			productName = RedPacketRain_Demo;
+			productReference = 8403BAAD1DAB5D9C008C7B84 /* RedPacketRain_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8403BAC51DAB5D9D008C7B84 /* RedPacketRain_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8403BADD1DAB5D9D008C7B84 /* Build configuration list for PBXNativeTarget "RedPacketRain_DemoTests" */;
+			buildPhases = (
+				8403BAC21DAB5D9D008C7B84 /* Sources */,
+				8403BAC31DAB5D9D008C7B84 /* Frameworks */,
+				8403BAC41DAB5D9D008C7B84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8403BAC81DAB5D9D008C7B84 /* PBXTargetDependency */,
+			);
+			name = RedPacketRain_DemoTests;
+			productName = RedPacketRain_DemoTests;
+			productReference = 8403BAC61DAB5D9D008C7B84 /* RedPacketRain_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8403BAD01DAB5D9D008C7B84 /* RedPacketRain_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8403BAE01DAB5D9D008C7B84 /* Build configuration list for PBXNativeTarget "RedPacketRain_DemoUITests" */;
+			buildPhases = (
+				8403BACD1DAB5D9D008C7B84 /* Sources */,
+				8403BACE1DAB5D9D008C7B84 /* Frameworks */,
+				8403BACF1DAB5D9D008C7B84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8403BAD31DAB5D9D008C7B84 /* PBXTargetDependency */,
+			);
+			name = RedPacketRain_DemoUITests;
+			productName = RedPacketRain_DemoUITests;
+			productReference = 8403BAD11DAB5D9D008C7B84 /* RedPacketRain_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8403BAA51DAB5D9C008C7B84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = AlezJi;
+				TargetAttributes = {
+					8403BAAC1DAB5D9C008C7B84 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 4ZH4E7JAJ8;
+						ProvisioningStyle = Automatic;
+					};
+					8403BAC51DAB5D9D008C7B84 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8403BAAC1DAB5D9C008C7B84;
+					};
+					8403BAD01DAB5D9D008C7B84 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8403BAAC1DAB5D9C008C7B84;
+					};
+				};
+			};
+			buildConfigurationList = 8403BAA81DAB5D9C008C7B84 /* Build configuration list for PBXProject "RedPacketRain_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8403BAA41DAB5D9C008C7B84;
+			productRefGroup = 8403BAAE1DAB5D9C008C7B84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8403BAAC1DAB5D9C008C7B84 /* RedPacketRain_Demo */,
+				8403BAC51DAB5D9D008C7B84 /* RedPacketRain_DemoTests */,
+				8403BAD01DAB5D9D008C7B84 /* RedPacketRain_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8403BAAB1DAB5D9C008C7B84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8403BAF11DAB621C008C7B84 /* RedPacketView.xib in Resources */,
+				8403BAEA1DAB5DF1008C7B84 /* redPaper.jpg in Resources */,
+				8403BAE91DAB5DF1008C7B84 /* hb.png in Resources */,
+				8403BAC01DAB5D9D008C7B84 /* LaunchScreen.storyboard in Resources */,
+				8403BABD1DAB5D9C008C7B84 /* Assets.xcassets in Resources */,
+				8403BABB1DAB5D9C008C7B84 /* Main.storyboard in Resources */,
+				8403BAEB1DAB5DF1008C7B84 /* snow.png in Resources */,
+				8403BAE81DAB5DF1008C7B84 /* btn_delete.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8403BAC41DAB5D9D008C7B84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8403BACF1DAB5D9D008C7B84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8403BAA91DAB5D9C008C7B84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8403BAEF1DAB6215008C7B84 /* RedPacketView.m in Sources */,
+				8403BAB81DAB5D9C008C7B84 /* ViewController.m in Sources */,
+				8403BAB51DAB5D9C008C7B84 /* AppDelegate.m in Sources */,
+				8403BAB21DAB5D9C008C7B84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8403BAC21DAB5D9D008C7B84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8403BACB1DAB5D9D008C7B84 /* RedPacketRain_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8403BACD1DAB5D9D008C7B84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8403BAD61DAB5D9D008C7B84 /* RedPacketRain_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8403BAC81DAB5D9D008C7B84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8403BAAC1DAB5D9C008C7B84 /* RedPacketRain_Demo */;
+			targetProxy = 8403BAC71DAB5D9D008C7B84 /* PBXContainerItemProxy */;
+		};
+		8403BAD31DAB5D9D008C7B84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8403BAAC1DAB5D9C008C7B84 /* RedPacketRain_Demo */;
+			targetProxy = 8403BAD21DAB5D9D008C7B84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8403BAB91DAB5D9C008C7B84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8403BABA1DAB5D9C008C7B84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8403BABE1DAB5D9D008C7B84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8403BABF1DAB5D9D008C7B84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8403BAD81DAB5D9D008C7B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8403BAD91DAB5D9D008C7B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8403BADB1DAB5D9D008C7B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4ZH4E7JAJ8;
+				INFOPLIST_FILE = RedPacketRain_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.RedPacketRain-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8403BADC1DAB5D9D008C7B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4ZH4E7JAJ8;
+				INFOPLIST_FILE = RedPacketRain_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.RedPacketRain-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8403BADE1DAB5D9D008C7B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedPacketRain_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.RedPacketRain-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedPacketRain_Demo.app/RedPacketRain_Demo";
+			};
+			name = Debug;
+		};
+		8403BADF1DAB5D9D008C7B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RedPacketRain_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.RedPacketRain-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RedPacketRain_Demo.app/RedPacketRain_Demo";
+			};
+			name = Release;
+		};
+		8403BAE11DAB5D9D008C7B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedPacketRain_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.RedPacketRain-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedPacketRain_Demo;
+			};
+			name = Debug;
+		};
+		8403BAE21DAB5D9D008C7B84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RedPacketRain_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.RedPacketRain-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RedPacketRain_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8403BAA81DAB5D9C008C7B84 /* Build configuration list for PBXProject "RedPacketRain_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8403BAD81DAB5D9D008C7B84 /* Debug */,
+				8403BAD91DAB5D9D008C7B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8403BADA1DAB5D9D008C7B84 /* Build configuration list for PBXNativeTarget "RedPacketRain_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8403BADB1DAB5D9D008C7B84 /* Debug */,
+				8403BADC1DAB5D9D008C7B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8403BADD1DAB5D9D008C7B84 /* Build configuration list for PBXNativeTarget "RedPacketRain_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8403BADE1DAB5D9D008C7B84 /* Debug */,
+				8403BADF1DAB5D9D008C7B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8403BAE01DAB5D9D008C7B84 /* Build configuration list for PBXNativeTarget "RedPacketRain_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8403BAE11DAB5D9D008C7B84 /* Debug */,
+				8403BAE21DAB5D9D008C7B84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8403BAA51DAB5D9C008C7B84 /* Project object */;
+}
